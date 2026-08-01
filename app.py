@@ -180,7 +180,7 @@ KURALLAR:
 # 5. GRADIO ARAYÜZÜ
 
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 📦 Akıllı Kargo & Kurye Asistanı (DB Tool-Calling)")
+    gr.Markdown("#  Akıllı Kargo & Kurye Asistanı ")
     gr.Markdown("Bu sistem gerçek bir **SQLite veritabanı** kullanır. Kargonuzu sorgulayabilir (READ) veya yeni bir kurye talebi oluşturarak veritabanına kayıt ekleyebilirsiniz (WRITE).")
     
     with gr.Row():
